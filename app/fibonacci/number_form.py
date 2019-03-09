@@ -7,3 +7,4 @@ class InputField(forms.Form):
         label='Fibonacci Number',
         validators=[RegexValidator(regex='\d$', message='Please enter a number', code='invalid_number')]
     )
+    number.widget.attrs['class'] = 'form-control'
