@@ -22,6 +22,15 @@ This project uses the `Binet's Formula` to compute the Nth number in the fibonac
     ```
 * The server should be available in localhost:8000
 
+# Tests
+* Change into app/ 
+    ```bash
+    ls app/
+    ```
+* Run 
+    ```python
+    python3 manage.py test fibonacci.tests
+    ```
 
 # Sources
 
